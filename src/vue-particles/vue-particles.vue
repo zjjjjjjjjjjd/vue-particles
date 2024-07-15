@@ -92,7 +92,7 @@
     },
     mounted () {
       // import particle.js only on client-side
-      require('particles.js')
+      require('@zzzzzjd/particles.js')
       this.$nextTick(() => {
         this.initParticleJS(
           this.color,
